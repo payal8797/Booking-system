@@ -1,0 +1,10 @@
+{%  extends 'accounts/main.html' %}
+
+{% block content %}
+
+{%  include 'accounts/status.html' %}
+<html>
+    <h1>Thank you for visiting.</h1>
+    <a class="submit" href="{% url 'adminView' %}">Click here</a> to add more tickts!!
+</html>
+{% endblock %}
